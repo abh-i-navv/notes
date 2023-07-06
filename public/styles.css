@@ -1,0 +1,106 @@
+
+
+*{
+  margin: 0;
+  color: rgb(228, 228, 228);
+}
+
+body{
+  background-color: #2C3A47;
+}
+
+header{
+  background-color: grey;
+  
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+header h1{
+  margin: auto auto auto 30px;
+  
+  color: rgb(228, 228, 228);
+  font-size: 36px;
+}
+
+
+form{
+  position: relative;
+  width: 400px;
+  height: 200px;
+  margin: 30px auto 20px auto;
+  background-color: grey;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  margin-bottom: 10px ;
+}
+
+::placeholder{
+  color: white;
+}
+
+input{
+  width: 400px;
+  display: block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: grey;
+  
+}
+
+textarea{
+  outline: none;
+  width: 400px;
+  height: 150px;
+  cursor: pointer;
+  border: none;
+  margin-top: 5px;
+  background-color: grey;
+  resize: none;
+
+}
+
+form svg{
+  height: 40px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+button{
+  height: 0px;
+  width: 0px;
+  border: none;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.note{
+  position: relative;
+  background-color: grey !important;
+  display: inline-flex;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  margin: 20px;
+  
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  
+}
+
+p{
+  word-wrap: break-word;
+}
+
+.note svg{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
